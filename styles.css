@@ -168,22 +168,24 @@ section input{
 
 
 /*segunda pagina*/
-.containerp{
+.container1{
     display: flex;
 }
-.containerp h2{
+.container1 h2{
     margin: 20px;
     margin-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.containerp p{
+.perro{
+    font-size: 20px;
     width: 745px;
     margin-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contenido p {
+    font-size: 20px;
     background-color: rgb(36, 40, 43);
     color: white;
     padding: 15px 15px 15px 15px ;
@@ -204,23 +206,119 @@ section input{
 
 }
 .hacer{
-    display: flex;
    
-    margin-top: 20px;
+   
+    margin-top:20px;
     background-color:rgb(36, 40, 43) ;
     width: 200px;
-    height: 300px;
+    height: 200px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
-.h3{
-    text-align:center ;
+.hacemos{
+    margin:10px;
+    
 }
-
-
 
 
 
 
 
 /*tercer pagina*/
+.contenedor3{
+    display:flex ;
+}
+.titulos{
+
+margin: 20px 10px 10px 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+flex-direction: column;
+font-size: 20px;
+
+
+
+
+}
+
+.titulo1{
+background-color: rgb(212, 203, 203);
+margin: 10px;
+
+}
+
+.titulo2{
+background-color: rgb(212, 203, 203);
+margin: 10px;
+
+}
+.titulo3{
+background-color: rgb(212, 203, 203);
+margin: 10px;
+}
+.parrafo4{
+    margin-top: 20px;
+    background-color:rgb(36, 40, 43) ;
+    width: 200px;
+    height: 300px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.sadow{
+    margin: 20px 20px 10px;
+    font-size: 15px;
+    
+}
+.hades66{
+    margin: 20px;
+    
+}
+
+/*cuarta pagina*/
+.perro{
+    display: flex;
+     margin-bottom: 100px;
+     padding: 20px 50px ;
+ }
+ .gato{
+     justify-content: space-between;
+ 
+ 
+     
+ }
+ .a{
+     background-color: white;
+     color: black;
+     width: 800px;
+ }
+ .b{
+     background-color: white;
+     width: 800px;
+ }
+ .i{
+     background-color: white;
+     width: 800px;
+ }
+ .o{
+     background-color: white;
+     width: 800px;
+ }
+ .u{
+     background-color: white;
+     width: 800px;
+ }
+ .uno{
+     text-align: end;
+     margin-right: 100px;
+   
+ 
+ }
+ .r{
+     width: 800px;
+ }
+ 
+ .imagen{
+     margin: 50px;
+ }
